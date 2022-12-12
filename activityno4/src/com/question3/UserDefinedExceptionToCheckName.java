@@ -5,10 +5,11 @@ import java.util.Scanner;
 
 import javax.naming.InvalidNameException;
 
+
 public class  UserDefinedExceptionToCheckName  extends Exception {
 	
 	void validateName(String name) throws InvalidNameException { 
-		String[] names = { "vaibhav", "Vaishali", "rutwik", "aniket","shivani","ritika"};
+		String[] names = { "vaibhav", "sani", "rutwik", "aniket","pallavi","priya"};
         boolean found= false;
         for (String n: names)
         {
