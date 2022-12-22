@@ -11,7 +11,7 @@ public static void main(String[] args) {
 		{
 			int lines=0,chars=0,words=0;
 			int code=0;
-			FileInputStream fis = new FileInputStream("F:\\char.txt");// accesing files
+			FileInputStream fis = new FileInputStream("D:\\char.txt");// accesing files
 			while(fis.available()!=0)
 			{
 				code = fis.read();

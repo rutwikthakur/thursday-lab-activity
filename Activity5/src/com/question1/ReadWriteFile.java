@@ -32,7 +32,7 @@ public class ReadWriteFile {
 		{
 			try
 			{
-			FileInputStream fin = new FileInputStream("F:\\read.txt");
+			FileInputStream fin = new FileInputStream("D:\\read.txt");
 			
 			while(( a=fin.read())!=-1) {   //reading file till -1
 				System.out.print((char)a);
